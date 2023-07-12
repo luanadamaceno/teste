@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    background-color: rgb(0, 162, 255);
+    display: flex;
+    padding: 10px;
+    border-radius: 2px;
+}
+.baixo{
+    display: flex;
+    background-color: rgb(0, 162, 255);
+}
+.meio{
+    display: flex;
+}
+body{
+    font-family: poppins,sans-serif;
+}
+input{
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: poppins,sans-serif;
+    transition: .3s ease-in-out;
+}
+input:hover{
+    background-color: rgb(16, 255, 56);
+    transform: scale(1.1);
+}
+.ab{
+    margin-top: 10px;
+    margin-left: 400px;
+}
+li{
+    list-style: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    transition: .3s ease-in-out;
+}
+a{
+    text-decoration: none;
+    transition: .3s ease-in-out;
+}
+ul{
+    display: flex;
+    margin-left: 200px;
+}
+li:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.04);
+}
+figcaption{
+    margin-top: 90px;
+}
+h1{
+    text-align: center;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+ol{
+    margin-left: 400px;
+}
+.icon_estacio{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.dicas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.dosvideos{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 50px;
+    transition: .3s ease-in-out;
+}
+.dosvideos:hover{
+    transform: scale(1.05);
+    background-color: rgb(0, 162, 255);
+}
+iframe{
+    border-radius: 10px;
+}
+.tcas{
+    width: 300px;
+    height: 40x;
+    margin: auto;
+    padding: auto;
+    border-radius: 10px;
+    background-color:rgb(0, 162, 255);
+    transition: .3s ease-in-out;
+
+}
+.tcas:hover{
+    background-color:rgb(16, 255, 56);
+    transform: scale(1.1);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0,.5);
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: white;
+}
+#tilz{
+    margin-top: 10px;
+}
+#carossel{
+    width: 1100px;
+    height: 330px;
+    background-color: black;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.conteiner{
+    display: flex;
+    padding: 30px;
+    margin-left: 70px;
+
+}
+.lugar{
+    width: 785px;
+    height: 165vh;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.filtro{
+    width: 200px;
+    height: 550px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-top: 100px;
+}
+.filtro option{
+    background-color: rgb(255, 255, 255);
+    font-family: poppins,sans-serif;
+}
+.filtro select{
+    border: none;
+    background-color:rgb(0, 162, 255);
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: 200px;
+    cursor: pointer;
+    font-family: poppins,sans-serif;
+}
+label{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: poppins,sans-serif;
+}
+[value="Selecionar"]{
+    margin: 30px 0 0 25px;
+    background-color:rgb(0, 162, 255);
+}
+[value="Selecionar"]:hover{
+    background-color:rgb(0, 162, 255);
+}
+hr{
+    margin: 30px 0px 30px 0px;
+}
+#mtt{
+    display: flex;
+}
+.card{
+    border: 0.1px solid;
+    width: 20vw;
+    height: 70vh;
+    border-color: rgb(173, 188, 196);
+}
+.posit{
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+}
+figure{
+    width: 20vw;
+    height: 30vh;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.card{
+    padding: 10px;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+img{
+    border-radius: 10px;
+}
+.detz{
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+[value="Escolher"]{
+    background-color:rgb(0, 162, 255);
+}
+[value="Escolher"]:hover{
+    background-color: rgb(255, 80, 74);
+}
+#carossel{
+    background-image: url(../img/gato\ novo.png);
+    background-position: center;
+    background-size: cover;
+}
+[for="femea"]{
+    margin-left: 10px;
+}
